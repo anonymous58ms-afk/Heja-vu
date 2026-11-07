@@ -1,0 +1,10 @@
+print("wrie ur no.")
+line = input()
+while line == 'new word':
+ print('dejavu')
+line_2 = line
+new_line = input()
+if new_line == line_2:
+ print("deja vu")
+else:
+ print("unique")
